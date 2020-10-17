@@ -13,10 +13,9 @@ def clear():
     # for mac and linux(here, os.name is 'posix')
     else:
         _ = system('clear')
-# Imports specifically so we can render outputs in Jupyter.
-from JSAnimation.IPython_display import display_animation
+
 from matplotlib import animation
-from IPython.display import display
+
 
 
 def display_frames_as_gif(frames):
@@ -37,7 +36,6 @@ def display_frames_as_gif(frames):
     #display(display_animation(anim, default_mode='loop'))
 from gym import envs
 from collections import deque
-
 print(envs.registry)
 import numpy as np
 import torch
