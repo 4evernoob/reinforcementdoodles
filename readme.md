@@ -1,5 +1,5 @@
 # Reinforcement Doodles
-This repo contains some toy implementations of deep reinforcement learning using Q-learning for two environments:
+This repo contains some toy implementations of deep reinforcement learning using Q-learning and actor-critic approach for two environments:
  
  - Frozen lake 8X8
  - Tic tac toe
